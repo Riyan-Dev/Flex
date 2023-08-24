@@ -1,0 +1,3 @@
+rollNo (FK),CID (FK),secID (FK),Semester (DK)
+21i-0410,MT-1003,E,Fall 2020
+21i-0725,MT-1006,G,Spring 2020

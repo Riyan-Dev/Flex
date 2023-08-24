@@ -1,0 +1,201 @@
+/* your styles go here */
+
+
+.navbar {
+    display: flex; /* it makes all the items move in a single line */
+    align-items: center; /* all items are allighned to the centre*/
+    padding: 20px; /* paddings are added accordingly*/
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: darkslategray;
+}
+.bg { /* background class */
+    height: 100%; /* max width and height are assigned to the background*/
+    width: 100%;
+    /* An image is added to background and filtered it colour */
+    background-repeat: no-repeat; /* background is not repeated*/
+    background-position: center; /* positon is centred*/
+    background-attachment: fixed; /* attachment is fixed and background doesnt move with scrolling*/
+    background-size: cover; /* background covers all the aspect ratio */
+
+    position: relative; /* postion is relative, it keeps moving on webpage to stay at same place on screen*/
+    height: auto;
+    top: -1px;
+    left: 1px;
+}
+
+
+nav { /* styling nav */
+    flex: 1;
+    text-align: right;
+}
+
+nav ul { /* styling the ul element in navigatiuon bar*/
+    display: inline-block;
+    list-style: none;
+        
+}
+
+    nav ul li { /* styling the list of naviation bar  */
+        display: inline-block;
+        margin-right: 70px;
+        
+    }
+
+nav ul li a { /* styling all the naviagtion bar items and its text */
+    color: cornflowerblue;
+    font-family: Bahnschrift; /* custom text used */
+    text-decoration: none; /* to remove underlines etc */
+    font-size: 30px;
+    text-shadow: 1px 1px #000000; /* to add a weight and make font asthetic */
+
+}
+.img { /* to style the cart on navigation bar */
+    padding: 10px;
+width: 61px;
+    height: 57px;
+    }
+    .img:hover { /* to enlarge the cart while cursor hover on it */
+
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+.ImageButton1{
+    width: 100px;
+    height: 100px;
+}
+
+.column {
+    float: left; /* to make things allign towrds left  */
+    width: 150px;
+    height: auto; /*setting the size of the column */
+    padding-top: 5px;
+    padding-bottom: 10px; /* adding padding to the card */
+    margin-left: 25px;
+    margin-right: 25px; /* to increase spaces.*/
+    background-color: rgba(0, 0, 0, 0.5); /*to provide black transparent background to the column  */
+    border-radius: 5%;
+    text-align: center;
+    display: inline-block; /* makes the disply inline.  */
+}
+.column1 {
+    float: none; /* to make things allign towrds left  */
+    width: 500px;
+    height: auto; /*setting the size of the column */
+    padding-top: 5px;
+    padding-bottom: 10px; /* adding padding to the card */
+    margin-left: 25px;
+    margin-right: 25px; /* to increase spaces.*/
+
+    text-align: center;
+    display: inline-block; /* makes the disply inline.  */
+}
+
+.list {
+    float: left; /* to make things allign towrds left  */
+    width: 250px;
+    height: auto; /*setting the size of the column */
+    padding-top: 5px;
+    padding-bottom: 10px; /* adding padding to the card */
+    margin-left: 75px;
+    margin-right: 75px; /* to increase spaces.*/
+    text-align: center;
+    display: inline-block; /* makes the disply inline.  */
+}
+
+.row {
+    width: 1200px; /* adjusting the width of the row */
+    height: auto; /* automatically height is calculated */
+    margin-left: auto;
+    margin-right: auto; /* auto margins make the row allign in center */
+    margin-top: 50px;
+    text-align: center;
+    overflow: hidden; /* to hide anything that cross the border of rows */
+    border-radius: 15px; /* to make border round */
+    padding-bottom: 50px;
+}
+.row1 {
+    width: 1200px; /* adjusting the width of the row */
+    height: auto; /* automatically height is calculated */
+    margin-left: auto;
+    margin-right: auto; /* auto margins make the row allign in center */
+    margin-top: 40px;
+    text-align: center;
+    overflow: hidden; /* to hide anything that cross the border of rows */
+    border-radius: 15px; /* to make border round */
+    padding-bottom: 20px;
+}
+
+.column:hover {
+    background-color: rgba(196,169,169,0.5);
+}
+
+.text1 {
+    color: cornflowerblue;
+    font-family: Bahnschrift; /* custom text used */
+    text-decoration: none; /* to remove underlines etc */
+    font-size: 20px;
+    text-shadow: 1px 1px #000000; /* to add a weight and make font asthetic */
+}
+.text2 {
+    margin-top: 100px;
+    text-align:center;
+    color: cornflowerblue;
+    font-family: Bahnschrift; /* custom text used */
+    text-decoration: none; /* to remove underlines etc */
+    font-size: 40px;
+    text-shadow: 1px 1px #000000; /* to add a weight and make font asthetic */
+}
+
+.label {
+    color: cornflowerblue;
+    font-family: Bahnschrift; /* custom text used */
+    text-decoration: none; /* to remove underlines etc */
+    font-size: 20px;
+    text-shadow: 1px 1px #000000;
+    /* text-shadow: 1px 1px #000000;*/ /* to add a weight and make font asthetic */
+}
+.button {
+    color: cornflowerblue;
+    font-family: Bahnschrift; /* custom text used */
+    text-decoration: none; /* to remove underlines etc */
+    font-size: 20px;
+     text-shadow: 1px 1px #000000;
+     border: double;
+     height: fit-content
+
+}
+
+.form {
+   
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+}
+
+.dl{
+    border:none;
+    background-color: cornflowerblue;
+
+}
+
+.tb {
+    border: none;
+    background-color: lavender
+}
+
+.reportnav {
+    width: 1200px; /* adjusting the width of the row */
+    height: auto; /* automatically height is calculated */
+    margin-left: auto;
+    margin-right: auto; /* auto margins make the row allign in center */
+    text-align: center;
+    overflow: hidden; /* to hide anything that cross the border of rows */
+    border-radius: 15px; /* to make border round */
+    background-color: darkslategray
+}
